@@ -1,0 +1,397 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .header_top {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     background: #F2F2F2;
+     padding: 60px 0;
+ }
+
+ .main_title {
+     color: #0088A2;
+     font-family: 'Josefin Sans';
+     font-size: 60px;
+     font-weight: 400;
+     margin-left: 30px;
+ }
+
+ .menu {
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+     height: 50px;
+     align-items: center;
+ }
+
+ .menu li {
+     width: 20%;
+     text-align: center;
+     background: #808080;
+     height: 60px;
+     transition: 0.7s;
+     align-items: center;
+     height: 50px;
+ }
+
+ .menu li:hover {
+     background: #0088A2;
+ }
+
+ .menu_item {
+     text-decoration: none;
+     font-family: 'Open Sans';
+     font-weight: 400;
+     font-size: 30px;
+     color: #fff;
+ }
+
+ .header_bottom {
+     width: 100%;
+ }
+
+ .work {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .work_cards {
+     width: 30%;
+     position: relative;
+
+ }
+
+ .work_cards img {
+     width: 100%;
+ }
+
+ .work_cards p {
+     position: absolute;
+     top: 43%;
+     left: 9%;
+     font-family: 'Open sans';
+     font-weight: 600;
+     font-size: 15px;
+     color: #fff;
+     line-height: 32px;
+     text-align: center;
+ }
+
+ .work_main {
+     padding: 70px 0;
+ }
+
+ .app h2 {
+     color: #0088A2;
+     font-family: 'Open sans';
+     font-weight: 400;
+     font-size: 60px;
+     text-align: center;
+     padding: 50px 0;
+ }
+
+ .video {
+     width: 100%;
+ }
+
+ .app_background {
+     width: 100%;
+     position: relative;
+ }
+
+ .play {
+     position: absolute;
+     top: 40%;
+     left: 44%;
+ }
+
+ .question {
+     width: 80%;
+     height: 600px;
+     margin: 60px auto;
+     position: relative;
+
+ }
+
+ .question_cards {
+     position: absolute;
+     height: 80%;
+     margin: 50px 0;
+ }
+
+ .question_cards:nth-child(1) {
+     left: 0;
+ }
+
+ .question_cards:nth-child(2) {
+     left: 18%;
+ }
+
+ .question_cards:nth-child(3) {
+     left: 36%;
+ }
+
+ .question_cards:nth-child(4) {
+     left: 54%;
+ }
+
+ .question_cards:nth-child(5) {
+     left: 72%;
+ }
+
+ .question_cards:nth-child(even) {
+     top: 30px;
+ }
+
+ .project {
+     width: 60%;
+     margin: 60px auto;
+ }
+
+ .project h3 {
+     color: #0088A2;
+     font-family: 'Open sans';
+     font-weight: 400;
+     font-size: 60px;
+     text-align: center;
+     padding: 20px 0;
+ }
+
+ .project p {
+     color: #707070;
+     font-family: 'Roboto';
+     font-weight: 400;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ .download h3 {
+     color: #0088A2;
+     font-family: 'Open sans';
+     font-weight: 400;
+     font-size: 60px;
+     text-align: center;
+     padding: 40px 0;
+ }
+
+ .main_download {
+     width: 100%;
+     display: flex;
+ }
+
+ .download_icons {
+     width: 45%;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .main_download img {
+     width: 30%;
+     position: absolute;
+     margin: 0 30px;
+ }
+
+ .download {
+     padding: 50px 0;
+ }
+
+ .download_icons {
+     margin: 0 auto;
+
+ }
+
+ .android {
+     width: 450px;
+ }
+
+ .down_text {
+     width: 80%;
+     margin: 100px auto;
+ }
+
+ .down_text p {
+     color: #707070;
+     font-family: 'Roboto';
+     font-weight: 400;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ footer {
+     background: #0088A2;
+ }
+
+ footer h3 {
+     font-family: 'Josefin Sans';
+     font-weight: 600;
+     font-size: 60px;
+     color: #fff;
+     text-align: center;
+     padding: 50px 0;
+ }
+
+ .network {
+     display: flex;
+     justify-content: space-between;
+     width: 30%;
+     margin: 0 auto;
+ }
+
+ .some_info {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     margin: 0 auto;
+     padding: 40px 0;
+ }
+
+ .block_info {
+     flex: 0 1 30%;
+     text-align: center;
+ }
+
+ .some_info h4 {
+
+     font-family: 'Open Sans';
+     font-weight: 400;
+     font-size: 32px;
+     text-align: center;
+     color: #FDFDFD;
+     padding: 50px 0;
+ }
+
+ .some_info p {
+     font-family: 'Open Sans';
+     font-weight: 400;
+     font-size: 26px;
+     color: #fff;
+ }
+
+
+
+
+ @media all and (max-width:460px) {
+
+     .header_top {
+         width: 150px;
+         flex-direction: column;
+     }
+
+     .main_title {
+         font-size: 20px;
+         margin-top: 20px;
+         margin-left: 0;
+         flex-direction: column;
+
+     }
+
+     .menu {
+         display: none;
+     }
+
+     .work {
+         flex-direction: column;
+
+     }
+
+     .work_cards {
+         width: 90%;
+         margin: 0 auto;
+         margin-bottom: 30px;
+     }
+
+     .work_cards p {
+         left: 5%;
+     }
+
+     .app h2 {
+         font-size: 24px;
+     }
+
+     .question {
+         display: none;
+     }
+
+     .app_background {
+         width: 90%;
+         margin: 0 auto;
+     }
+
+     .video {
+         border-radius: 20px;
+         height: 196px;
+     }
+
+     .play {
+         position: absolute;
+         top: 40%;
+         left: 44%;
+         width: 40px;
+     }
+
+     .project h3 {
+         font-size: 24px;
+     }
+
+     .project p {
+         font-size: 15px;
+     }
+
+     .download h3 {
+         font-size: 24px;
+     }
+
+     .download_icons {
+         width: 262px;
+         height: 101px;
+         margin-top: 30px;
+     }
+
+     .download {
+         padding: 0;
+     }
+
+     .down_text p {
+         font-size: 15px;
+     }
+
+     footer h3 {
+         font-size: 24px;
+         padding: 20px 0;
+     }
+
+     .network {
+         height: 32px;
+         justify-content: center;
+         flex: 0 1 2000px;
+
+     }
+
+     .some_info {
+         flex-direction: column;
+         flex-wrap: wrap;
+         padding: 15px 0;
+         display: flex;
+         justify-content: center;
+     }
+
+     .some_info h4 {
+         font-size: 18px;
+         padding: 10px;
+     }
+
+     .some_info p {
+         font-size: 10px;
+     }
+
+ }
